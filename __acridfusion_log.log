@@ -39,3 +39,8 @@ May 20 16:52:27 *	brad (~brad@user/acridfusion) has joined
 May 20 16:52:34 *	brad is now known as acridfusion
 May 20 16:55:50 *	acridfusion has quit (Client Quit)
 May 21 21:22:06 <wm>	Setting up Chat log backups on GitHub
+May 21 21:44:17 <wm>	https://github.com/oldtowneast/irc-logs
+May 21 21:59:31 <wm>	Play Soma FM on the command line
+May 21 22:00:25 <wm>	(THE TRIP) | mpv -no-video -volume=93 https://somafm.com/thetrip.pls
+May 21 22:01:23 <wm>	(GROOVE SALAD) | mpv --no-video --volume=93 https://somafm.com/groovesalad256.pls
+May 21 22:01:36 <wm>	(SECRET AGENT) | mpv --no-video --volume=93 https://somafm.com/secretagent.pls
