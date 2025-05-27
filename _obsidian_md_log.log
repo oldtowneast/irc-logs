@@ -1,0 +1,173 @@
+**** BEGIN LOGGING AT Sat May 24 22:47:16 2025
+
+May 24 22:47:16 *	Now talking on #Obsidian.md
+May 24 22:47:16 *	mercury.libera.chat sets mode +C on #Obsidian.md
+May 24 22:47:16 *	mercury.libera.chat sets mode +n on #Obsidian.md
+May 24 22:47:16 *	mercury.libera.chat sets mode +s on #Obsidian.md
+May 24 22:47:16 *	mercury.libera.chat sets mode +t on #Obsidian.md
+May 24 22:52:19 *	wm sets mode -s on #Obsidian.md
+May 24 22:53:09 *	You've invited ChanServ to #Obsidian.md (mercury.libera.chat)
+May 24 22:54:11 >ChanServ<	invite #Obsidian.md 
+May 24 22:54:11 -ChanServ-	You're already on #Obsidian.md.
+May 24 22:54:26 *	You have left channel #Obsidian.md
+**** ENDING LOGGING AT Sat May 24 22:54:26 2025
+
+**** BEGIN LOGGING AT Sat May 24 22:54:26 2025
+
+May 24 22:54:26 *	Now talking on #Obsidian.md
+May 24 22:54:26 *	mercury.libera.chat sets mode +C on #Obsidian.md
+May 24 22:54:26 *	mercury.libera.chat sets mode +n on #Obsidian.md
+May 24 22:54:26 *	mercury.libera.chat sets mode +s on #Obsidian.md
+May 24 22:54:26 *	mercury.libera.chat sets mode +t on #Obsidian.md
+May 24 22:54:26 *	services. removes channel operator status from wm
+May 24 22:54:26 *	*** Notice -- TS for #Obsidian.md changed from 1748145266 to 1748144836
+May 24 22:54:26 *	services. sets mode -s on #Obsidian.md
+May 24 22:54:26 *	ChanServ (ChanServ@services.libera.chat) has joined
+May 24 22:54:26 *	services. gives channel operator status to ChanServ
+**** ENDING LOGGING AT Sat May 24 22:54:47 2025
+
+**** BEGIN LOGGING AT Sat May 24 22:54:57 2025
+
+May 24 22:54:57 *	Now talking on #Obsidian.md
+May 24 22:54:57 -NickServ-	You are already logged in as wm.
+May 24 22:55:28 *	ChanServ gives channel operator status to wm
+May 24 22:56:48 >ChanServ<	access #Obsidian.md 
+May 24 22:56:48 -ChanServ-	Invalid ChanServ command.
+May 24 22:56:48 -ChanServ-	Use /msg ChanServ HELP for a ChanServ command listing.
+May 24 22:57:09 >ChanServ<	access #Obsidian.md add wm 10
+May 24 22:57:09 -ChanServ-	Invalid ChanServ command.
+May 24 22:57:09 -ChanServ-	Use /msg ChanServ HELP for a ChanServ command listing.
+May 24 22:57:19 >ChanServ<	HELP 
+May 24 22:57:20 -ChanServ-	***** ChanServ Help *****
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	ChanServ gives normal users the ability to maintain control
+May 24 22:57:20 -ChanServ-	of a channel, without the need of a bot. Channel takeovers are
+May 24 22:57:20 -ChanServ-	virtually impossible when a channel is registered with ChanServ.
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	Registration is a quick and painless process. Once registered,
+May 24 22:57:20 -ChanServ-	the founder can maintain complete and total control over the
+May 24 22:57:20 -ChanServ-	channel.
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	Please note that channels will expire if there are no eligible channel successors.
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	Successors are primarily those who have the +S (if available)
+May 24 22:57:20 -ChanServ-	or +R flag set on their account in the channel, although other
+May 24 22:57:20 -ChanServ-	people may be chosen depending on their access level and activity.
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	The following commands are available:
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	  AKICK           Manipulates a channel's AKICK list.
+May 24 22:57:20 -ChanServ-	  CLEAR           Channel removal toolkit.
+May 24 22:57:20 -ChanServ-	  DEOP            Removes channel ops from a user.
+May 24 22:57:20 -ChanServ-	  DEVOICE         Removes channel voice from a user.
+May 24 22:57:20 -ChanServ-	  DROP            Drops a channel registration.
+May 24 22:57:20 -ChanServ-	  FLAGS           Manipulates specific permissions on a channel.
+May 24 22:57:20 -ChanServ-	  GETKEY          Returns the key (+k) of a channel.
+May 24 22:57:20 -ChanServ-	  INFO            Displays information on registrations.
+May 24 22:57:20 -ChanServ-	  INVITE          Invites you to a channel.
+May 24 22:57:20 -ChanServ-	  OP              Gives channel ops to a user.
+May 24 22:57:20 -ChanServ-	  QUIET           Sets a quiet on a channel.
+May 24 22:57:20 -ChanServ-	  REGISTER        Registers a channel.
+May 24 22:57:20 -ChanServ-	  SET             Sets various control flags.
+May 24 22:57:20 -ChanServ-	  TOPIC           Sets a topic on a channel.
+May 24 22:57:20 -ChanServ-	  UNBAN           Unbans you on a channel.
+May 24 22:57:20 -ChanServ-	  UNQUIET         Removes a quiet on a channel.
+May 24 22:57:20 -ChanServ-	  VOICE           Gives channel voice to a user.
+May 24 22:57:20 -ChanServ-	  WHY             Explains channel access logic.
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	The following additional commands are available:
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	  CLAIM, COUNT, HELP, LISTGROUPCHANS, LISTMODES, RECOVER,
+May 24 22:57:20 -ChanServ-	  STATUS, SYNC, TAXONOMY, TEMPLATE, TOPICAPPEND,
+May 24 22:57:20 -ChanServ-	  TOPICPREPEND, TOPICSWAP
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	For more information on a ChanServ command, type:
+May 24 22:57:20 -ChanServ-	/msg ChanServ HELP <command>
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	For a verbose listing of all ChanServ commands, type:
+May 24 22:57:20 -ChanServ-	/msg ChanServ HELP COMMANDS
+May 24 22:57:20 -ChanServ-	 
+May 24 22:57:20 -ChanServ-	***** End of Help *****
+May 24 22:59:21 >ChanServ<	HELP access
+May 24 22:59:21 -ChanServ-	***** ChanServ Help *****
+May 24 22:59:21 -ChanServ-	 
+May 24 22:59:21 -ChanServ-	No such command access.
+May 24 22:59:21 -ChanServ-	 
+May 24 22:59:21 -ChanServ-	***** End of Help *****
+May 24 22:59:25 >ChanServ<	HELP access
+May 24 22:59:25 -ChanServ-	***** ChanServ Help *****
+May 24 22:59:25 -ChanServ-	 
+May 24 22:59:25 -ChanServ-	No such command access.
+May 24 22:59:25 -ChanServ-	 
+May 24 22:59:25 -ChanServ-	***** End of Help *****
+May 24 22:59:47 >ChanServ<	HELP flags
+May 24 22:59:48 -ChanServ-	***** ChanServ Help *****
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	Help for FLAGS:
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	The FLAGS command allows for the granting/removal of channel
+May 24 22:59:48 -ChanServ-	privileges on a more specific, non-generalized level. It
+May 24 22:59:48 -ChanServ-	supports nicknames and hostmasks as targets.
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	When only the channel argument is given, a listing of
+May 24 22:59:48 -ChanServ-	permissions granted to users will be displayed.
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	Syntax: FLAGS <#channel>
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	Otherwise, an access entry is modified. A modification may be
+May 24 22:59:48 -ChanServ-	specified by a template name (changes the access to the
+May 24 22:59:48 -ChanServ-	template) or a flags change (starts with + or -). See the
+May 24 22:59:48 -ChanServ-	TEMPLATE help entry for more information about templates.
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	If you are not a founder, you may only manipulate flags you
+May 24 22:59:48 -ChanServ-	have yourself, and may not edit users that have flags you
+May 24 22:59:48 -ChanServ-	don't have. For this purpose, +v grants the ability to grant
+May 24 22:59:48 -ChanServ-	+V, +o grants the ability to grant +O, and +r grants the
+May 24 22:59:48 -ChanServ-	ability to grant +b.
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	As of Atheme 7.0, there are now extended entity targets
+May 24 22:59:48 -ChanServ-	which allow you to match chanacs against a situation instead
+May 24 22:59:48 -ChanServ-	of against a nickname or hostmask.
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	Available exttargets are:
+May 24 22:59:48 -ChanServ-	$chanacs:#channel - Any user with channel access in the given channel
+May 24 22:59:48 -ChanServ-	                      (including hostmasks).
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	If you do not have +f you may still remove your own access
+May 24 22:59:48 -ChanServ-	with -*.
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	Syntax: FLAGS <#channel> [nickname|hostmask template]
+May 24 22:59:48 -ChanServ-	Syntax: FLAGS <#channel> [nickname|hostmask flag_changes]
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	Permissions:
+May 24 22:59:48 -ChanServ-	    +v - Enables use of the voice/devoice commands.
+May 24 22:59:48 -ChanServ-	    +V - Enables automatic voice.
+May 24 22:59:48 -ChanServ-	    +o - Enables use of the op/deop commands.
+May 24 22:59:48 -ChanServ-	    +O - Enables automatic op.
+May 24 22:59:48 -ChanServ-	    +s - Enables use of the set command.
+May 24 22:59:48 -ChanServ-	    +i - Enables use of the invite and getkey commands.
+May 24 22:59:48 -ChanServ-	    +r - Enables use of the unban, quiet, and unquiet commands.
+May 24 22:59:48 -ChanServ-	    +R - Enables use of the recover, sync and clear commands.
+May 24 22:59:48 -ChanServ-	    +f - Enables modification of channel access lists.
+May 24 22:59:48 -ChanServ-	    +t - Enables use of the topic and topicappend commands.
+May 24 22:59:48 -ChanServ-	    +A - Enables viewing of channel access lists.
+May 24 22:59:48 -ChanServ-	    +S - Marks the user as a successor.
+May 24 22:59:48 -ChanServ-	    +F - Grants full founder access.
+May 24 22:59:48 -ChanServ-	    +b - Enables automatic kickban.
+May 24 22:59:48 -ChanServ-	    +e - Exempts from +b and enables unbanning self.
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	The special permission +* adds all permissions except +b, +S, and +F.
+May 24 22:59:48 -ChanServ-	The special permission -* removes all permissions including +b and +F.
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	Examples:
+May 24 22:59:48 -ChanServ-	    /msg ChanServ FLAGS #foo
+May 24 22:59:48 -ChanServ-	    /msg ChanServ FLAGS #foo foo!*@bar.com VOP
+May 24 22:59:48 -ChanServ-	    /msg ChanServ FLAGS #foo foo!*@bar.com -V+oO
+May 24 22:59:48 -ChanServ-	    /msg ChanServ FLAGS #foo foo!*@bar.com -*
+May 24 22:59:48 -ChanServ-	    /msg ChanServ FLAGS #foo foo +oOtsi
+May 24 22:59:48 -ChanServ-	    /msg ChanServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
+May 24 22:59:48 -ChanServ-	 
+May 24 22:59:48 -ChanServ-	***** End of Help *****
+May 24 23:00:50 >ChanServ<	FLAGS #Obsidian.md wm +O
+May 24 23:00:50 -ChanServ-	Flags +O were set on wm in #Obsidian.md.
