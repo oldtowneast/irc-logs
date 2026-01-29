@@ -1,0 +1,913 @@
+**** BEGIN LOGGING AT Mon May 19 23:59:44 2025
+
+May 19 23:59:44 *	Now talking on #wmjpg
+May 19 23:59:44 *	zinc.libera.chat sets mode +C on #wmjpg
+May 19 23:59:44 *	zinc.libera.chat sets mode +n on #wmjpg
+May 19 23:59:44 *	zinc.libera.chat sets mode +s on #wmjpg
+May 19 23:59:44 *	zinc.libera.chat sets mode +t on #wmjpg
+May 19 23:59:44 -NickServ-	You are already logged in as wm.
+May 19 23:59:44 *	services. removes channel operator status from wm
+May 19 23:59:44 *	*** Notice -- TS for #wmjpg changed from 1747717184 to 1747525445
+May 19 23:59:44 *	services. sets mode -s on #wmjpg
+May 19 23:59:44 *	ChanServ (ChanServ@services.libera.chat) has joined
+May 19 23:59:44 *	services. gives channel operator status to ChanServ
+**** ENDING LOGGING AT Tue May 20 00:03:25 2025
+
+**** BEGIN LOGGING AT Tue May 20 00:03:25 2025
+
+**** ENDING LOGGING AT Tue May 20 01:15:31 2025
+
+**** BEGIN LOGGING AT Tue May 20 01:15:31 2025
+
+**** ENDING LOGGING AT Tue May 20 01:40:34 2025
+
+**** BEGIN LOGGING AT Tue May 20 01:40:34 2025
+
+May 22 10:01:58 *	halloy2979 (~halloy297@2603:6000:b800:2172:7ba:b0ec:72e0:fe19) has joined
+May 22 10:01:58 *	ChanServ (ChanServ@services.libera.chat) has left
+May 22 10:03:58 *	halloy2979 has quit (Client Quit)
+May 22 10:14:05 >ChanServ<	flags #wmjpg ChanServ +o
+May 22 10:14:05 -ChanServ-	ChanServ is not registered.
+May 22 10:14:34 >ChanServ<	info #yourchannel
+May 22 10:14:34 -ChanServ-	#yourchannel is not registered.
+May 22 10:14:39 >ChanServ<	info #wmjpg
+May 22 10:14:39 -ChanServ-	Information on #wmjpg:
+May 22 10:14:39 -ChanServ-	Founder    : wm
+May 22 10:14:39 -ChanServ-	Successor  : libera-placeholder-account
+May 22 10:14:39 -ChanServ-	Registered : May 17 23:45:24 2025 +0000 (4d 15h 29m ago)
+May 22 10:14:39 -ChanServ-	Mode lock  : +ntC
+May 22 10:14:39 -ChanServ-	Flags      : PUBACL
+May 22 10:14:39 -ChanServ-	*** End of Info ***
+May 22 10:14:55 >ChanServ<	set #wmjpg guard on
+May 22 10:14:56 *	ChanServ (ChanServ@services.libera.chat) has joined
+May 22 10:14:56 *	services. gives channel operator status to ChanServ
+May 22 10:14:56 -ChanServ-	The GUARD flag has been set for channel #wmjpg.
+May 22 10:15:45 *	#wmjpg :You're not a channel operator
+May 22 10:15:59 >ChanServ<	access #wmjpg add ChanServ SOP
+May 22 10:15:59 -ChanServ-	Invalid ChanServ command.
+May 22 10:15:59 -ChanServ-	Use /msg ChanServ HELP for a ChanServ command listing.
+May 22 10:16:13 >ChanServ<	HELP
+May 22 10:16:13 -ChanServ-	***** ChanServ Help *****
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	ChanServ gives normal users the ability to maintain control
+May 22 10:16:13 -ChanServ-	of a channel, without the need of a bot. Channel takeovers are
+May 22 10:16:13 -ChanServ-	virtually impossible when a channel is registered with ChanServ.
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	Registration is a quick and painless process. Once registered,
+May 22 10:16:13 -ChanServ-	the founder can maintain complete and total control over the
+May 22 10:16:13 -ChanServ-	channel.
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	Please note that channels will expire if there are no eligible channel successors.
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	Successors are primarily those who have the +S (if available)
+May 22 10:16:13 -ChanServ-	or +R flag set on their account in the channel, although other
+May 22 10:16:13 -ChanServ-	people may be chosen depending on their access level and activity.
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	The following commands are available:
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	  AKICK           Manipulates a channel's AKICK list.
+May 22 10:16:13 -ChanServ-	  CLEAR           Channel removal toolkit.
+May 22 10:16:13 -ChanServ-	  DEOP            Removes channel ops from a user.
+May 22 10:16:13 -ChanServ-	  DEVOICE         Removes channel voice from a user.
+May 22 10:16:13 -ChanServ-	  DROP            Drops a channel registration.
+May 22 10:16:13 -ChanServ-	  FLAGS           Manipulates specific permissions on a channel.
+May 22 10:16:13 -ChanServ-	  GETKEY          Returns the key (+k) of a channel.
+May 22 10:16:13 -ChanServ-	  INFO            Displays information on registrations.
+May 22 10:16:13 -ChanServ-	  INVITE          Invites you to a channel.
+May 22 10:16:13 -ChanServ-	  OP              Gives channel ops to a user.
+May 22 10:16:13 -ChanServ-	  QUIET           Sets a quiet on a channel.
+May 22 10:16:13 -ChanServ-	  REGISTER        Registers a channel.
+May 22 10:16:13 -ChanServ-	  SET             Sets various control flags.
+May 22 10:16:13 -ChanServ-	  TOPIC           Sets a topic on a channel.
+May 22 10:16:13 -ChanServ-	  UNBAN           Unbans you on a channel.
+May 22 10:16:13 -ChanServ-	  UNQUIET         Removes a quiet on a channel.
+May 22 10:16:13 -ChanServ-	  VOICE           Gives channel voice to a user.
+May 22 10:16:13 -ChanServ-	  WHY             Explains channel access logic.
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	The following additional commands are available:
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	  CLAIM, COUNT, HELP, LISTGROUPCHANS, LISTMODES, RECOVER,
+May 22 10:16:13 -ChanServ-	  STATUS, SYNC, TAXONOMY, TEMPLATE, TOPICAPPEND,
+May 22 10:16:13 -ChanServ-	  TOPICPREPEND, TOPICSWAP
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	For more information on a ChanServ command, type:
+May 22 10:16:13 -ChanServ-	/msg ChanServ HELP <command>
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	For a verbose listing of all ChanServ commands, type:
+May 22 10:16:13 -ChanServ-	/msg ChanServ HELP COMMANDS
+May 22 10:16:13 -ChanServ-	 
+May 22 10:16:13 -ChanServ-	***** End of Help *****
+May 22 10:16:46 >ChanServ<	OP 
+May 22 10:16:46 -ChanServ-	Insufficient parameters for OP.
+May 22 10:16:46 -ChanServ-	Syntax: OP <#channel> [nickname] [...]
+May 22 10:16:54 >ChanServ<	OP #wmjpg wm
+May 22 10:16:54 *	ChanServ gives channel operator status to wm
+**** ENDING LOGGING AT Thu May 22 10:17:21 2025
+
+**** BEGIN LOGGING AT Thu May 22 10:17:31 2025
+
+May 22 10:17:31 *	Now talking on #wmjpg
+May 22 10:17:31 -NickServ-	You are already logged in as wm.
+**** ENDING LOGGING AT Thu May 22 11:50:44 2025
+
+**** BEGIN LOGGING AT Thu May 22 18:29:56 2025
+
+May 22 18:29:56 *	Now talking on #wmjpg
+May 22 18:29:56 -NickServ-	You are already logged in as wm.
+May 23 14:15:34 <wm>	Judge blocks Trump plan to stop Harvard enrolling foreign students. | 
+May 23 14:15:34 <wm>	Elias Rodriguez charged with murder of Israeli couple in Washington, DC. | 
+May 23 14:15:34 <wm>	US accepts Qatari jet for Air Force One overhaul. | 
+May 23 14:15:34 <wm>	Columbia University found violating Jewish students’ civil rights. | 
+May 23 14:15:34 <wm>	Chicago shooting leaves man dead in Humboldt Park. | 
+May 23 14:15:34 <wm>	Heavy metal drummer killed in San Diego plane crash. | 
+May 23 14:15:34 <wm>	Trump’s tax-cut bill passes House, heads to Senate. | 
+May 23 23:59:14 *	[ChanServ] (ChanServ@services.libera.chat): Channel Services
+May 23 23:59:14 *	[ChanServ] services. :Atheme IRC Services
+May 23 23:59:14 *	[ChanServ] is a Network Service
+May 23 23:59:14 *	[ChanServ] End of WHOIS list.
+**** ENDING LOGGING AT Sat May 24 16:45:09 2025
+
+**** BEGIN LOGGING AT Sat May 24 16:45:35 2025
+
+May 24 16:45:35 *	Now talking on #wmjpg
+May 24 16:45:35 -NickServ-	You are now identified for wm.
+May 24 16:45:35 -NickServ-	Last login from: ~wm@2603:6000:b800:2172:37d2:1f5e:65c7:bcca on May 24 21:45:34 2025 +0000.
+**** ENDING LOGGING AT Sat May 24 16:45:41 2025
+
+**** BEGIN LOGGING AT Sat May 24 16:45:56 2025
+
+May 24 16:45:56 *	Now talking on #wmjpg
+May 24 16:45:56 -NickServ-	You are already logged in as wm.
+May 24 22:24:36 >ChanServ<	HELP OP
+May 24 22:24:36 -ChanServ-	***** ChanServ Help *****
+May 24 22:24:36 -ChanServ-	 
+May 24 22:24:36 -ChanServ-	Help for OP|DEOP|VOICE|DEVOICE:
+May 24 22:24:36 -ChanServ-	 
+May 24 22:24:36 -ChanServ-	These commands perform status mode changes on a channel.
+May 24 22:24:36 -ChanServ-	 
+May 24 22:24:36 -ChanServ-	If you perform an operation on another user, they will be
+May 24 22:24:36 -ChanServ-	notified that you did it.
+May 24 22:24:36 -ChanServ-	 
+May 24 22:24:36 -ChanServ-	If the last parameter is omitted the action is performed
+May 24 22:24:36 -ChanServ-	on the person requesting the command.
+May 24 22:24:36 -ChanServ-	 
+May 24 22:24:36 -ChanServ-	Syntax: OP|DEOP <#channel> [nickname]
+May 24 22:24:36 -ChanServ-	Syntax: VOICE|DEVOICE <#channel> [nickname]
+May 24 22:24:36 -ChanServ-	 
+May 24 22:24:36 -ChanServ-	Examples:
+May 24 22:24:36 -ChanServ-	    /msg ChanServ OP #foo bar
+May 24 22:24:36 -ChanServ-	    /msg ChanServ DEVOICE #foo
+May 24 22:24:36 -ChanServ-	 
+May 24 22:24:36 -ChanServ-	***** End of Help *****
+May 24 22:25:19 >ChanServ<	OP #wmjpg wm
+May 24 22:25:19 *	ChanServ gives channel operator status to wm
+**** ENDING LOGGING AT Sat May 24 22:27:10 2025
+
+**** BEGIN LOGGING AT Sat May 24 22:27:10 2025
+
+May 24 22:29:12 *	wm has changed the topic to: a
+May 24 22:29:19 *	wm has changed the topic to: This space intentionally left blank.
+**** ENDING LOGGING AT Sat May 24 22:29:36 2025
+
+**** BEGIN LOGGING AT Sat May 24 22:29:47 2025
+
+May 24 22:29:47 *	Now talking on #wmjpg
+May 24 22:29:47 *	Topic for #wmjpg is: This space intentionally left blank.
+May 24 22:29:47 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+May 24 22:29:47 -NickServ-	You are already logged in as wm.
+May 24 22:29:47 -ChanServ-	wm is not on #wmjpg.
+May 24 22:30:07 >ChanServ<	OP #wmjpg wm
+May 24 22:30:07 *	ChanServ gives channel operator status to wm
+May 24 22:31:26 *	You have left channel #wmjpg
+**** ENDING LOGGING AT Sat May 24 22:31:26 2025
+
+**** BEGIN LOGGING AT Sat May 24 22:31:26 2025
+
+May 24 22:31:26 *	Now talking on #wmjpg
+May 24 22:31:26 *	Topic for #wmjpg is: This space intentionally left blank.
+May 24 22:31:26 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+May 24 22:33:26 >ChanServ<	OP #wmjpg wm
+May 24 22:33:26 *	ChanServ gives channel operator status to wm
+May 24 22:37:24 *	Cannot join #1337 (Channel is invite only)
+May 24 22:51:31 >ChanServ<	register #Obsidian.md 
+May 24 22:51:31 -ChanServ-	#Obsidian.md is now registered to wm.
+May 24 22:51:31 -ChanServ-	 
+May 24 22:51:31 -ChanServ-	Note that channels on Libera.Chat are created secret
+May 24 22:51:31 -ChanServ-	(+s) by default. If you wish for your channel to be
+May 24 22:51:31 -ChanServ-	discoverable by network users (for example with ALIS
+May 24 22:51:31 -ChanServ-	or /LIST), you will need to unset this channel mode:
+May 24 22:51:31 -ChanServ-	 
+May 24 22:51:31 -ChanServ-	/MODE #Obsidian.md -s
+**** ENDING LOGGING AT Sat May 24 22:54:47 2025
+
+**** BEGIN LOGGING AT Sat May 24 22:54:57 2025
+
+May 24 22:54:57 *	Now talking on #wmjpg
+May 24 22:54:57 *	Topic for #wmjpg is: This space intentionally left blank.
+May 24 22:54:57 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+May 24 22:55:22 >ChanServ<	OP #wmjpg wm
+May 24 22:55:22 *	ChanServ gives channel operator status to wm
+May 24 22:55:26 >ChanServ<	OP #Obsidian.md  wm
+May 24 23:01:05 >ChanServ<	FLAGS #wmjpg  wm +O
+May 24 23:01:05 -ChanServ-	Flags +O were set on wm in #wmjpg.
+May 25 06:22:04 <wm>	8 Awesome Paracord Zipper Pulls - https://www.youtube.com/watch?v=AZaMUCpZwwk
+**** BEGIN LOGGING AT Tue May 27 15:54:44 2025
+
+May 27 15:54:44 *	Now talking on #wmjpg
+May 27 15:54:44 *	Topic for #wmjpg is: This space intentionally left blank.
+May 27 15:54:44 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+May 27 15:54:44 *	ChanServ gives channel operator status to wm
+May 27 15:55:32 <wm>	I feel like all I've done the last three days is shop for cars and rearrange my computer equipment. Hey, it's Tuesday!
+May 29 21:13:33 Usage: MSG <nick> <message>, sends a private message, message "." to send to last nick or prefix with "=" for dcc chat
+**** BEGIN LOGGING AT Sat May 31 15:05:31 2025
+
+May 31 15:05:31 *	Now talking on #wmjpg
+May 31 15:05:31 *	Topic for #wmjpg is: This space intentionally left blank.
+May 31 15:05:31 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+May 31 15:05:31 *	ChanServ gives channel operator status to wm
+Jun 01 21:04:27 -ChanServ-	You have had operator (+o) status given to you on ##acridfusion by acridfusion
+Jun 02 18:55:17 <wm>	New car acquired
+Jun 02 18:56:17 <wm>	Queue the music: Straight Talk from NY https://www.youtube.com/watch?v=-kRJDsce8Wo
+**** BEGIN LOGGING AT Wed Jun  4 00:24:44 2025
+
+Jun 04 00:24:44 *	Now talking on #wmjpg
+Jun 04 00:24:44 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 04 00:24:44 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 04 00:24:44 *	ChanServ gives channel operator status to wm
+Jun 04 00:30:06 *	Disconnected ()
+**** ENDING LOGGING AT Wed Jun  4 00:30:06 2025
+
+**** BEGIN LOGGING AT Wed Jun  4 00:30:24 2025
+
+Jun 04 00:30:24 *	Now talking on #wmjpg
+Jun 04 00:30:24 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 04 00:30:24 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 04 00:30:24 -NickServ-	You are already logged in as wm.
+Jun 04 00:30:24 *	ChanServ gives channel operator status to wm
+Jun 04 00:34:06 *	Disconnected ()
+**** ENDING LOGGING AT Wed Jun  4 00:34:06 2025
+
+**** BEGIN LOGGING AT Wed Jun  4 00:34:32 2025
+
+Jun 04 00:34:32 *	Now talking on #wmjpg
+Jun 04 00:34:32 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 04 00:34:32 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 04 00:34:32 -NickServ-	You are now identified for wm.
+Jun 04 00:34:32 -NickServ-	Last login from: ~wm@2603:6000:b800:2172:7306:cac7:2516:205 on Jun 04 05:30:18 2025 +0000.
+Jun 04 00:34:32 *	ChanServ gives channel operator status to wm_
+Jun 04 00:34:32 *	wm has quit (Read error: Connection reset by peer)
+Jun 04 00:37:06 *	Disconnected ()
+**** ENDING LOGGING AT Wed Jun  4 00:37:06 2025
+
+**** BEGIN LOGGING AT Wed Jun  4 00:37:28 2025
+
+Jun 04 00:37:28 *	Now talking on #wmjpg
+Jun 04 00:37:28 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 04 00:37:28 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 04 00:37:28 -NickServ-	You are now identified for wm.
+Jun 04 00:37:28 -NickServ-	Last login from: ~wm@2603:6000:b800:2172:7306:cac7:2516:205 on Jun 04 05:34:32 2025 +0000.
+Jun 04 00:37:28 *	ChanServ gives channel operator status to wm__
+Jun 04 00:37:28 *	wm_ has quit (Read error: Connection reset by peer)
+Jun 04 00:41:06 *	Disconnected ()
+**** ENDING LOGGING AT Wed Jun  4 00:41:06 2025
+
+**** BEGIN LOGGING AT Wed Jun  4 00:41:25 2025
+
+Jun 04 00:41:25 *	Now talking on #wmjpg
+Jun 04 00:41:25 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 04 00:41:25 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 04 00:41:25 -NickServ-	You are now identified for wm.
+Jun 04 00:41:25 -NickServ-	Last login from: ~wm@2603:6000:b800:2172:7306:cac7:2516:205 on Jun 04 05:37:28 2025 +0000.
+Jun 04 00:41:25 *	ChanServ gives channel operator status to wm_
+Jun 04 00:44:41 *	wm__ has quit (Ping timeout: 272 seconds)
+**** ENDING LOGGING AT Thu Jun  5 11:38:26 2025
+
+**** BEGIN LOGGING AT Thu Jun  5 11:38:38 2025
+
+Jun 05 11:38:38 *	Now talking on #wmjpg
+Jun 05 11:38:38 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 05 11:38:38 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 05 11:38:38 *	ChanServ gives channel operator status to wm
+Jun 05 14:46:30 *	Disconnected ()
+**** ENDING LOGGING AT Thu Jun  5 14:46:30 2025
+
+**** BEGIN LOGGING AT Fri Jun  6 00:00:49 2025
+
+Jun 06 00:00:49 *	Now talking on #wmjpg
+Jun 06 00:00:49 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 06 00:00:49 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 06 00:00:49 *	ChanServ gives channel operator status to wm
+Jun 06 22:29:30 *	Disconnected ()
+**** ENDING LOGGING AT Fri Jun  6 22:29:30 2025
+
+**** BEGIN LOGGING AT Sat Jun  7 01:08:09 2025
+
+Jun 07 01:08:09 *	Now talking on #wmjpg
+Jun 07 01:08:09 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 07 01:08:09 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 07 01:08:09 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Sat Jun  7 21:56:53 2025
+
+Jun 07 21:56:53 *	Now talking on #wmjpg
+Jun 07 21:56:53 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 07 21:56:53 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 07 21:56:53 *	ChanServ gives channel operator status to wm
+Jun 08 12:57:45 *	Disconnected ()
+**** ENDING LOGGING AT Sun Jun  8 12:57:45 2025
+
+**** BEGIN LOGGING AT Sun Jun  8 14:52:30 2025
+
+Jun 08 14:52:30 *	Now talking on #wmjpg
+Jun 08 14:52:30 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 08 14:52:30 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 08 14:52:30 *	ChanServ gives channel operator status to wm
+Jun 11 08:00:54 *	Disconnected ()
+**** ENDING LOGGING AT Wed Jun 11 08:00:54 2025
+
+**** BEGIN LOGGING AT Wed Jun 11 08:01:11 2025
+
+Jun 11 08:01:11 *	Now talking on #wmjpg
+Jun 11 08:01:11 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 11 08:01:11 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 11 08:01:11 -NickServ-	You are already logged in as wm.
+Jun 11 08:01:11 *	ChanServ gives channel operator status to wm
+Jun 12 16:29:24 *	Disconnected ()
+**** ENDING LOGGING AT Thu Jun 12 16:29:24 2025
+
+**** BEGIN LOGGING AT Thu Jun 12 16:29:48 2025
+
+Jun 12 16:29:48 *	Now talking on #wmjpg
+Jun 12 16:29:48 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 12 16:29:48 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 12 16:29:48 *	ChanServ gives channel operator status to wm_
+Jun 12 16:32:39 *	wm has quit (Ping timeout: 260 seconds)
+Jun 12 16:51:24 *	Disconnected ()
+**** ENDING LOGGING AT Thu Jun 12 16:51:24 2025
+
+**** BEGIN LOGGING AT Thu Jun 12 16:51:49 2025
+
+Jun 12 16:51:49 *	Now talking on #wmjpg
+Jun 12 16:51:49 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 12 16:51:49 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 12 16:51:49 *	ChanServ gives channel operator status to wm__
+Jun 12 16:54:49 *	wm_ has quit (Ping timeout: 260 seconds)
+**** BEGIN LOGGING AT Fri Jun 13 20:17:43 2025
+
+Jun 13 20:17:43 *	Now talking on #wmjpg
+Jun 13 20:17:43 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 13 20:17:43 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 13 20:17:43 *	ChanServ gives channel operator status to wm
+Jun 14 03:23:35 *	Disconnected ()
+**** ENDING LOGGING AT Sat Jun 14 03:23:35 2025
+
+**** BEGIN LOGGING AT Sat Jun 14 03:24:01 2025
+
+Jun 14 03:24:01 *	Now talking on #wmjpg
+Jun 14 03:24:01 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 14 03:24:01 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 14 03:24:01 *	ChanServ gives channel operator status to wm_
+Jun 14 03:27:49 *	wm has quit (Ping timeout: 260 seconds)
+Jun 16 14:38:05 *	Disconnected ()
+**** ENDING LOGGING AT Mon Jun 16 14:38:05 2025
+
+**** BEGIN LOGGING AT Mon Jun 16 17:29:07 2025
+
+Jun 16 17:29:07 *	Now talking on #wmjpg
+Jun 16 17:29:07 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 16 17:29:07 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 16 17:29:07 *	ChanServ gives channel operator status to wm
+Jun 17 08:25:35 *	Disconnected ()
+**** ENDING LOGGING AT Tue Jun 17 08:25:35 2025
+
+**** BEGIN LOGGING AT Tue Jun 17 08:25:59 2025
+
+Jun 17 08:25:59 *	Now talking on #wmjpg
+Jun 17 08:25:59 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 17 08:25:59 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 17 08:25:59 *	ChanServ gives channel operator status to wm_
+Jun 17 08:28:34 *	wm has quit (Ping timeout: 260 seconds)
+**** BEGIN LOGGING AT Tue Jun 17 17:33:09 2025
+
+Jun 17 17:33:09 *	Now talking on #wmjpg
+Jun 17 17:33:09 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 17 17:33:09 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 17 17:33:09 *	ChanServ gives channel operator status to wm
+Jun 17 23:50:02 *	Disconnected ()
+**** ENDING LOGGING AT Tue Jun 17 23:50:02 2025
+
+**** BEGIN LOGGING AT Tue Jun 17 23:50:26 2025
+
+Jun 17 23:50:26 *	Now talking on #wmjpg
+Jun 17 23:50:26 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 17 23:50:26 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 17 23:50:26 *	ChanServ gives channel operator status to wm_
+Jun 17 23:53:09 *	wm has quit (Ping timeout: 260 seconds)
+Jun 17 23:57:31 *	Disconnected ()
+**** ENDING LOGGING AT Tue Jun 17 23:57:31 2025
+
+**** BEGIN LOGGING AT Tue Jun 17 23:57:57 2025
+
+Jun 17 23:57:57 *	Now talking on #wmjpg
+Jun 17 23:57:57 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 17 23:57:57 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 17 23:57:57 *	ChanServ gives channel operator status to wm__
+Jun 18 00:00:37 *	wm_ has quit (Ping timeout: 248 seconds)
+**** BEGIN LOGGING AT Wed Jun 18 22:45:38 2025
+
+Jun 18 22:45:38 *	Now talking on #wmjpg
+Jun 18 22:45:38 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 18 22:45:38 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 18 22:45:38 *	ChanServ gives channel operator status to wm
+Jun 23 13:41:35 *	ChanServ has quit (*.net *.split)
+Jun 23 14:18:29 *	ChanServ (ChanServ@services.libera.chat) has joined
+Jun 23 14:18:29 *	silver.libera.chat gives channel operator status to ChanServ
+Jun 23 14:37:01 *	Disconnected ()
+**** ENDING LOGGING AT Mon Jun 23 14:37:01 2025
+
+**** BEGIN LOGGING AT Mon Jun 23 14:37:20 2025
+
+Jun 23 14:37:20 *	Now talking on #wmjpg
+Jun 23 14:37:20 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 23 14:37:20 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 23 14:37:20 *	ChanServ gives channel operator status to wm_
+Jun 23 14:37:43 *	wm has quit (*.net *.split)
+Jun 24 15:05:01 *	Disconnected ()
+**** ENDING LOGGING AT Tue Jun 24 15:05:01 2025
+
+**** BEGIN LOGGING AT Tue Jun 24 15:07:03 2025
+
+Jun 24 15:07:03 *	Now talking on #wmjpg
+Jun 24 15:07:03 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 24 15:07:03 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 24 15:07:03 *	ChanServ gives channel operator status to wm
+Jun 24 15:08:24 *	wm_ has quit (Ping timeout: 276 seconds)
+Jun 25 18:29:01 *	Disconnected ()
+**** ENDING LOGGING AT Wed Jun 25 18:29:01 2025
+
+**** BEGIN LOGGING AT Wed Jun 25 19:20:10 2025
+
+Jun 25 19:20:10 *	Now talking on #wmjpg
+Jun 25 19:20:10 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 25 19:20:10 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 25 19:20:10 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Mon Jun 30 11:32:00 2025
+
+Jun 30 11:32:00 *	Now talking on #wmjpg
+Jun 30 11:32:00 *	Topic for #wmjpg is: This space intentionally left blank.
+Jun 30 11:32:00 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jun 30 11:32:00 *	ChanServ gives channel operator status to wm
+Jun 30 14:50:24 *	Disconnected ()
+**** ENDING LOGGING AT Mon Jun 30 14:50:24 2025
+
+**** BEGIN LOGGING AT Tue Jul  1 22:17:02 2025
+
+Jul 01 22:17:02 *	Now talking on #wmjpg
+Jul 01 22:17:02 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 01 22:17:02 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 01 22:17:02 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Wed Jul  2 19:28:15 2025
+
+Jul 02 19:28:15 *	Now talking on #wmjpg
+Jul 02 19:28:15 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 02 19:28:15 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 02 19:28:15 *	ChanServ gives channel operator status to wm
+Jul 05 17:56:07 *	Disconnected ()
+**** ENDING LOGGING AT Sat Jul  5 17:56:07 2025
+
+**** BEGIN LOGGING AT Sat Jul  5 17:57:13 2025
+
+Jul 05 17:57:13 *	Now talking on #wmjpg
+Jul 05 17:57:13 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 05 17:57:13 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 05 17:57:13 *	ChanServ gives channel operator status to wm_
+Jul 05 17:59:29 *	wm has quit (Ping timeout: 260 seconds)
+**** BEGIN LOGGING AT Sun Jul  6 16:50:55 2025
+
+Jul 06 16:50:55 *	Now talking on #wmjpg
+Jul 06 16:50:55 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 06 16:50:55 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 06 16:50:55 *	ChanServ gives channel operator status to wm
+Jul 12 17:59:47 *	Disconnected ()
+**** ENDING LOGGING AT Sat Jul 12 17:59:47 2025
+
+**** BEGIN LOGGING AT Sat Jul 12 18:00:05 2025
+
+Jul 12 18:00:05 *	Now talking on #wmjpg
+Jul 12 18:00:05 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 12 18:00:05 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 12 18:00:05 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Sat Jul 12 23:09:27 2025
+
+Jul 12 23:09:27 *	Now talking on #wmjpg
+Jul 12 23:09:27 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 12 23:09:27 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 12 23:09:27 *	ChanServ gives channel operator status to wm
+Jul 14 09:02:52 *	Disconnected ()
+**** ENDING LOGGING AT Mon Jul 14 09:02:52 2025
+
+**** BEGIN LOGGING AT Mon Jul 14 11:24:23 2025
+
+Jul 14 11:24:23 *	Now talking on #wmjpg
+Jul 14 11:24:23 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 14 11:24:23 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 14 11:24:23 *	ChanServ gives channel operator status to wm
+Jul 18 00:10:20 *	Disconnected ()
+**** ENDING LOGGING AT Fri Jul 18 00:10:20 2025
+
+**** BEGIN LOGGING AT Fri Jul 18 00:13:41 2025
+
+Jul 18 00:13:41 *	Now talking on #wmjpg
+Jul 18 00:13:41 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 18 00:13:41 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 18 00:13:41 *	ChanServ gives channel operator status to wm_
+Jul 18 00:13:51 *	wm has quit (Ping timeout: 276 seconds)
+Jul 24 09:01:20 *	Disconnected ()
+**** ENDING LOGGING AT Thu Jul 24 09:01:20 2025
+
+**** BEGIN LOGGING AT Thu Jul 24 09:01:38 2025
+
+Jul 24 09:01:38 *	Now talking on #wmjpg
+Jul 24 09:01:38 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 24 09:01:38 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 24 09:01:38 *	ChanServ gives channel operator status to wm_
+**** BEGIN LOGGING AT Fri Jul 25 14:53:27 2025
+
+Jul 25 14:53:28 *	Now talking on #wmjpg
+Jul 25 14:53:28 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 25 14:53:28 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 25 14:53:28 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Sat Jul 26 21:03:09 2025
+
+Jul 26 21:03:09 *	Now talking on #wmjpg
+Jul 26 21:03:09 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 26 21:03:09 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 26 21:03:09 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Mon Jul 28 01:12:46 2025
+
+Jul 28 01:12:47 *	Now talking on #wmjpg
+Jul 28 01:12:47 *	Topic for #wmjpg is: This space intentionally left blank.
+Jul 28 01:12:47 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Jul 28 01:12:47 *	ChanServ gives channel operator status to wm
+Aug 03 01:56:10 *	Disconnected ()
+**** ENDING LOGGING AT Sun Aug  3 01:56:10 2025
+
+**** BEGIN LOGGING AT Sun Aug  3 01:59:56 2025
+
+Aug 03 01:59:56 *	Now talking on #wmjpg
+Aug 03 01:59:56 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 03 01:59:56 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 03 01:59:56 *	ChanServ gives channel operator status to wm
+Aug 03 02:22:10 *	Disconnected ()
+**** ENDING LOGGING AT Sun Aug  3 02:22:10 2025
+
+**** BEGIN LOGGING AT Sun Aug  3 02:24:10 2025
+
+Aug 03 02:24:09 *	Now talking on #wmjpg
+Aug 03 02:24:09 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 03 02:24:09 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 03 02:24:09 *	ChanServ gives channel operator status to wm
+Aug 03 21:09:10 *	Disconnected ()
+**** ENDING LOGGING AT Sun Aug  3 21:09:10 2025
+
+**** BEGIN LOGGING AT Mon Aug  4 01:18:47 2025
+
+Aug 04 01:18:47 *	Now talking on #wmjpg
+Aug 04 01:18:47 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 04 01:18:47 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 04 01:18:48 *	ChanServ gives channel operator status to wm
+Aug 04 12:09:10 *	Disconnected ()
+**** ENDING LOGGING AT Mon Aug  4 12:09:10 2025
+
+**** BEGIN LOGGING AT Mon Aug  4 12:09:52 2025
+
+Aug 04 12:09:52 *	Now talking on #wmjpg
+Aug 04 12:09:52 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 04 12:09:52 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 04 12:09:52 *	ChanServ gives channel operator status to wm_
+**** BEGIN LOGGING AT Mon Aug  4 12:14:30 2025
+
+Aug 04 12:14:30 *	Now talking on #wmjpg
+Aug 04 12:14:30 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 04 12:14:30 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 04 12:14:30 *	ChanServ gives channel operator status to wm
+Aug 05 17:33:23 *	Disconnected ()
+**** ENDING LOGGING AT Tue Aug  5 17:33:23 2025
+
+**** BEGIN LOGGING AT Tue Aug  5 17:57:57 2025
+
+Aug 05 17:57:57 *	Now talking on #wmjpg
+Aug 05 17:57:57 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 05 17:57:57 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 05 17:57:57 *	ChanServ gives channel operator status to wm
+Aug 10 17:52:58 *	ChanServ has quit (shutting down)
+Aug 10 17:59:32 *	ChanServ (ChanServ@services.libera.chat) has joined
+Aug 10 17:59:32 *	tantalum.libera.chat gives channel operator status to ChanServ
+Aug 12 01:10:23 *	Disconnected ()
+**** ENDING LOGGING AT Tue Aug 12 01:10:23 2025
+
+**** BEGIN LOGGING AT Tue Aug 12 01:11:13 2025
+
+Aug 12 01:11:13 *	Now talking on #wmjpg
+Aug 12 01:11:13 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 12 01:11:13 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 12 01:11:13 *	ChanServ gives channel operator status to wm_
+Aug 12 01:13:12 *	wm has quit (Ping timeout: 252 seconds)
+**** BEGIN LOGGING AT Tue Aug 12 16:43:54 2025
+
+Aug 12 16:43:54 *	Now talking on #wmjpg
+Aug 12 16:43:54 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 12 16:43:54 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 12 16:43:55 *	ChanServ gives channel operator status to wm
+Aug 15 21:56:45 *	Disconnected ()
+**** ENDING LOGGING AT Fri Aug 15 21:56:45 2025
+
+**** BEGIN LOGGING AT Fri Aug 15 21:57:08 2025
+
+Aug 15 21:57:08 *	Now talking on #wmjpg
+Aug 15 21:57:08 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 15 21:57:08 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 15 21:57:08 *	ChanServ gives channel operator status to wm_
+Aug 15 22:00:02 *	wm has quit (Ping timeout: 260 seconds)
+Aug 15 22:21:15 *	Disconnected ()
+**** ENDING LOGGING AT Fri Aug 15 22:21:15 2025
+
+**** BEGIN LOGGING AT Fri Aug 15 22:21:35 2025
+
+Aug 15 22:21:35 *	Now talking on #wmjpg
+Aug 15 22:21:35 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 15 22:21:35 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 15 22:21:35 *	ChanServ gives channel operator status to wm__
+Aug 15 22:24:09 *	wm_ has quit (Ping timeout: 244 seconds)
+Aug 18 13:45:45 *	Disconnected ()
+**** ENDING LOGGING AT Mon Aug 18 13:45:45 2025
+
+**** BEGIN LOGGING AT Mon Aug 18 13:46:09 2025
+
+Aug 18 13:46:09 *	Now talking on #wmjpg
+Aug 18 13:46:09 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 18 13:46:09 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 18 13:46:09 *	ChanServ gives channel operator status to wm_
+Aug 18 13:48:34 *	wm__ has quit (Ping timeout: 256 seconds)
+Aug 18 14:17:45 *	Disconnected ()
+**** ENDING LOGGING AT Mon Aug 18 14:17:45 2025
+
+**** BEGIN LOGGING AT Mon Aug 18 14:18:05 2025
+
+Aug 18 14:18:05 *	Now talking on #wmjpg
+Aug 18 14:18:05 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 18 14:18:05 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 18 14:18:05 *	ChanServ gives channel operator status to wm__
+Aug 18 14:21:00 *	wm_ has quit (Ping timeout: 252 seconds)
+Aug 21 16:52:15 *	Disconnected ()
+**** ENDING LOGGING AT Thu Aug 21 16:52:15 2025
+
+**** BEGIN LOGGING AT Thu Aug 21 21:32:13 2025
+
+Aug 21 21:32:13 *	Now talking on #wmjpg
+Aug 21 21:32:13 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 21 21:32:13 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 21 21:32:13 *	ChanServ gives channel operator status to wm
+Aug 27 02:58:45 *	Disconnected ()
+**** ENDING LOGGING AT Wed Aug 27 02:58:45 2025
+
+**** BEGIN LOGGING AT Wed Aug 27 02:59:04 2025
+
+Aug 27 02:59:04 *	Now talking on #wmjpg
+Aug 27 02:59:04 *	Topic for #wmjpg is: This space intentionally left blank.
+Aug 27 02:59:04 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Aug 27 02:59:04 *	ChanServ gives channel operator status to wm
+Sep 01 22:39:26 *	Disconnected ()
+**** ENDING LOGGING AT Mon Sep  1 22:39:26 2025
+
+**** BEGIN LOGGING AT Mon Sep  1 22:44:26 2025
+
+Sep 01 22:44:26 *	Now talking on #wmjpg
+Sep 01 22:44:26 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 01 22:44:26 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 01 22:44:26 *	ChanServ gives channel operator status to wm
+Sep 02 08:20:48 *	Disconnected ()
+**** ENDING LOGGING AT Tue Sep  2 08:20:48 2025
+
+**** BEGIN LOGGING AT Tue Sep  2 08:23:18 2025
+
+Sep 02 08:23:18 *	Now talking on #wmjpg
+Sep 02 08:23:18 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 02 08:23:18 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 02 08:23:18 *	ChanServ gives channel operator status to wm_
+Sep 02 08:29:52 *	wm has quit (*.net *.split)
+**** ENDING LOGGING AT Thu Sep  4 21:18:01 2025
+
+**** BEGIN LOGGING AT Thu Sep  4 21:18:12 2025
+
+Sep 04 21:18:12 *	Now talking on #wmjpg
+Sep 04 21:18:12 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 04 21:18:12 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 04 21:18:12 *	ChanServ gives channel operator status to wm
+Sep 06 05:43:05 *	Disconnected ()
+**** ENDING LOGGING AT Sat Sep  6 05:43:05 2025
+
+**** BEGIN LOGGING AT Sat Sep  6 05:45:34 2025
+
+Sep 06 05:45:34 *	Now talking on #wmjpg
+Sep 06 05:45:34 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 06 05:45:34 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 06 05:45:34 *	ChanServ gives channel operator status to wm_
+Sep 06 05:52:06 *	wm has quit (*.net *.split)
+**** BEGIN LOGGING AT Sun Sep  7 17:48:37 2025
+
+Sep 07 17:48:37 *	Now talking on #wmjpg
+Sep 07 17:48:37 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 07 17:48:37 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 07 17:48:37 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Sun Sep  7 19:15:59 2025
+
+Sep 07 19:15:59 *	Now talking on #wmjpg
+Sep 07 19:15:59 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 07 19:15:59 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 07 19:15:59 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Sun Sep  7 19:25:18 2025
+
+Sep 07 19:25:19 *	Now talking on #wmjpg
+Sep 07 19:25:19 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 07 19:25:19 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 07 19:25:19 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Mon Sep  8 22:31:49 2025
+
+Sep 08 22:31:50 *	Now talking on #wmjpg
+Sep 08 22:31:50 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 08 22:31:50 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 08 22:31:50 *	ChanServ gives channel operator status to wm
+Sep 11 22:00:13 *	Disconnected ()
+**** ENDING LOGGING AT Thu Sep 11 22:00:13 2025
+
+**** BEGIN LOGGING AT Fri Sep 12 00:16:22 2025
+
+Sep 12 00:16:22 *	Now talking on #wmjpg
+Sep 12 00:16:22 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 12 00:16:22 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 12 00:16:22 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Sun Sep 14 16:50:06 2025
+
+Sep 14 16:50:06 *	Now talking on #wmjpg
+Sep 14 16:50:06 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 14 16:50:06 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 14 16:50:06 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Tue Sep 16 00:04:23 2025
+
+Sep 16 00:04:23 *	Now talking on #wmjpg
+Sep 16 00:04:23 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 16 00:04:23 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 16 00:04:23 *	ChanServ gives channel operator status to wm
+Sep 18 00:22:46 *	Disconnected ()
+**** ENDING LOGGING AT Thu Sep 18 00:22:46 2025
+
+**** BEGIN LOGGING AT Thu Sep 18 00:25:21 2025
+
+Sep 18 00:25:21 *	Now talking on #wmjpg
+Sep 18 00:25:21 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 18 00:25:21 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 18 00:25:21 *	ChanServ gives channel operator status to wm_
+Sep 18 00:25:44 *	wm has quit (Ping timeout: 260 seconds)
+Sep 18 01:51:32 *	ChanServ has quit (*.net *.split)
+Sep 18 01:55:58 *	ChanServ (ChanServ@services.libera.chat) has joined
+Sep 18 01:55:58 *	silver.libera.chat gives channel operator status to ChanServ
+Sep 19 06:35:54 *	ChanServ has quit (*.net *.split)
+Sep 19 06:40:19 *	ChanServ (ChanServ@services.libera.chat) has joined
+Sep 19 06:40:19 *	silver.libera.chat gives channel operator status to ChanServ
+Sep 19 13:34:06 *	ChanServ has quit (*.net *.split)
+Sep 19 13:35:52 *	ChanServ (ChanServ@services.libera.chat) has joined
+Sep 19 13:35:52 *	silver.libera.chat gives channel operator status to ChanServ
+**** BEGIN LOGGING AT Mon Sep 22 23:56:48 2025
+
+Sep 22 23:56:48 *	Now talking on #wmjpg
+Sep 22 23:56:48 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 22 23:56:48 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 22 23:56:48 *	ChanServ gives channel operator status to wm
+Sep 29 23:48:10 *	Disconnected ()
+**** ENDING LOGGING AT Mon Sep 29 23:48:10 2025
+
+**** BEGIN LOGGING AT Mon Sep 29 23:48:28 2025
+
+Sep 29 23:48:28 *	Now talking on #wmjpg
+Sep 29 23:48:28 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 29 23:48:28 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 29 23:48:28 *	ChanServ gives channel operator status to wm
+Sep 30 01:05:40 *	Disconnected ()
+**** ENDING LOGGING AT Tue Sep 30 01:05:40 2025
+
+**** BEGIN LOGGING AT Tue Sep 30 01:05:58 2025
+
+Sep 30 01:05:58 *	Now talking on #wmjpg
+Sep 30 01:05:58 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 30 01:05:58 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 30 01:05:58 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Tue Sep 30 23:40:57 2025
+
+Sep 30 23:40:57 *	Now talking on #wmjpg
+Sep 30 23:40:57 *	Topic for #wmjpg is: This space intentionally left blank.
+Sep 30 23:40:57 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Sep 30 23:40:57 *	ChanServ gives channel operator status to wm
+Oct 01 21:49:19 *	Disconnected ()
+**** ENDING LOGGING AT Wed Oct  1 21:49:19 2025
+
+**** BEGIN LOGGING AT Wed Oct  1 21:50:18 2025
+
+Oct 01 21:50:18 *	Now talking on #wmjpg
+Oct 01 21:50:18 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 01 21:50:18 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 01 21:50:18 *	ChanServ gives channel operator status to wm_
+Oct 01 21:52:20 *	wm has quit (Ping timeout: 256 seconds)
+**** BEGIN LOGGING AT Thu Oct  9 07:10:34 2025
+
+Oct 09 07:10:34 *	Now talking on #wmjpg
+Oct 09 07:10:34 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 09 07:10:34 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 09 07:10:34 *	ChanServ gives channel operator status to wm
+Oct 15 21:28:27 *	Disconnected ()
+**** ENDING LOGGING AT Wed Oct 15 21:28:27 2025
+
+**** BEGIN LOGGING AT Wed Oct 15 21:28:44 2025
+
+Oct 15 21:28:44 *	Now talking on #wmjpg
+Oct 15 21:28:44 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 15 21:28:44 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 15 21:28:44 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Wed Oct 15 22:04:20 2025
+
+Oct 15 22:04:20 *	Now talking on #wmjpg
+Oct 15 22:04:20 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 15 22:04:20 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 15 22:04:21 *	ChanServ gives channel operator status to wm
+Oct 16 01:25:42 *	Disconnected ()
+**** ENDING LOGGING AT Thu Oct 16 01:25:42 2025
+
+**** BEGIN LOGGING AT Thu Oct 16 01:28:11 2025
+
+Oct 16 01:28:11 *	Now talking on #wmjpg
+Oct 16 01:28:11 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 16 01:28:11 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 16 01:28:11 *	ChanServ gives channel operator status to wm
+Oct 22 21:06:12 *	Disconnected ()
+**** ENDING LOGGING AT Wed Oct 22 21:06:12 2025
+
+**** BEGIN LOGGING AT Wed Oct 22 21:06:37 2025
+
+Oct 22 21:06:37 *	Now talking on #wmjpg
+Oct 22 21:06:37 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 22 21:06:37 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 22 21:06:37 *	ChanServ gives channel operator status to wm
+Oct 27 22:28:42 *	Disconnected ()
+**** ENDING LOGGING AT Mon Oct 27 22:28:42 2025
+
+**** BEGIN LOGGING AT Mon Oct 27 22:28:59 2025
+
+Oct 27 22:28:59 *	Now talking on #wmjpg
+Oct 27 22:28:59 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 27 22:28:59 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 27 22:28:59 *	ChanServ gives channel operator status to wm
+**** BEGIN LOGGING AT Thu Oct 30 09:33:53 2025
+
+Oct 30 09:33:53 *	Now talking on #wmjpg
+Oct 30 09:33:53 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 30 09:33:53 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 30 09:33:53 *	ChanServ gives channel operator status to wm
+Oct 30 21:22:46 *	Disconnected ()
+**** ENDING LOGGING AT Thu Oct 30 21:22:46 2025
+
+**** BEGIN LOGGING AT Thu Oct 30 21:23:10 2025
+
+Oct 30 21:23:10 *	Now talking on #wmjpg
+Oct 30 21:23:10 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 30 21:23:10 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 30 21:23:10 *	ChanServ gives channel operator status to wm_
+Oct 30 21:25:56 *	wm has quit (Ping timeout: 256 seconds)
+Oct 31 03:59:16 *	Disconnected ()
+**** ENDING LOGGING AT Fri Oct 31 03:59:16 2025
+
+**** BEGIN LOGGING AT Fri Oct 31 03:59:36 2025
+
+Oct 31 03:59:36 *	Now talking on #wmjpg
+Oct 31 03:59:36 *	Topic for #wmjpg is: This space intentionally left blank.
+Oct 31 03:59:36 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Oct 31 03:59:36 *	ChanServ gives channel operator status to wm__
+Oct 31 04:02:00 *	wm_ has quit (Ping timeout: 252 seconds)
+Oct 31 19:45:00 *	ChanServ has quit (*.net *.split)
+Oct 31 19:50:57 *	ChanServ (ChanServ@services.libera.chat) has joined
+Oct 31 19:50:57 *	silver.libera.chat gives channel operator status to ChanServ
+Oct 31 22:46:16 *	Disconnected ()
+**** ENDING LOGGING AT Fri Oct 31 22:46:16 2025
+
+**** BEGIN LOGGING AT Mon Nov 10 14:17:29 2025
+
+Nov 10 14:17:29 *	Now talking on #wmjpg
+Nov 10 14:17:29 *	Topic for #wmjpg is: This space intentionally left blank.
+Nov 10 14:17:29 *	Topic for #wmjpg set by wm!~wm@user/wm (Sat May 24 22:29:19 2025)
+Nov 10 14:17:30 *	ChanServ gives channel operator status to wm
+Nov 10 14:19:42 >ChanServ<	DROP #wmjpg
+Nov 10 14:19:42 -ChanServ-	This is a friendly reminder that you are about to DESTROY the channel #wmjpg.
+Nov 10 14:19:42 -ChanServ-	To avoid accidental use of this command, this operation has to be confirmed. Please confirm by replying with /msg ChanServ DROP #wmjpg A0558DCF:9DADDF7C
+Nov 10 14:20:03 >ChanServ<	DROP #wmjpg A0558DCF:9DADDF7C
+Nov 10 14:20:04 *	ChanServ (ChanServ@services.libera.chat) has left
+Nov 10 14:20:04 -ChanServ-	The channel #wmjpg has been dropped.
+**** ENDING LOGGING AT Mon Nov 10 14:20:09 2025
+
